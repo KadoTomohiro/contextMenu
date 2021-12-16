@@ -1,0 +1,32 @@
+#context-menu {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #333;
+    border-radius: 3px;
+    position: fixed;
+    z-index: 10000;
+    display: none;
+    background-color: #fafafa;
+    width: 5em;
+}
+
+#context-menu.shown {
+    display: block;
+}
+
+#context-menu .menu-item {
+    background-color: inherit;
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 0.5em;
+    cursor: pointer;
+}
+#context-menu .menu-item:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+#context-menu .menu-item:active {
+
+}
